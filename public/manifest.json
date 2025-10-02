@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "JagoPRBot Extension",
+  "version": "1.0",
+  "description": "An extension that uses AI to help you write better PR descriptions",
+  "side_panel": {
+    "default_path": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["scripting", "activeTab", "sidePanel", "tabs"],
+  "host_permissions": ["http://*/*", "https://*/*"]
+}
