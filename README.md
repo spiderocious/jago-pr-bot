@@ -55,7 +55,7 @@ The side panel shows live updates as it works:
 
 1. Clone this repository
 ```bash
-git clone https://github.com/yourorg/jagoprbot.git
+git clone hhttps://github.com/spiderocious/jago-pr-bot
 ```
 
 2. Open Chrome and navigate to `chrome://extensions/`
@@ -66,23 +66,6 @@ git clone https://github.com/yourorg/jagoprbot.git
 
 5. The JagoPRBot icon will appear in your extensions toolbar
 
-## First-time Setup
-
-1. Click the "Generate Description" button on any PR/MR page (or open the side panel manually)
-
-2. You'll be prompted to enter your JagoPRBot API key
-
-3. Don't have a key? Click "Create one here" to sign up at [jagoprbot.com/signup](https://jagoprbot.com/signup)
-
-4. Enter your key and click validate
-
-5. You're ready to generate descriptions!
-
-## Usage Limits
-
-- **Free tier**: 1,000 MR descriptions per account
-- Usage counter visible in side panel and extension popup
-- Regenerations count toward your limit
 
 ## How Generation Works
 
@@ -97,7 +80,7 @@ git clone https://github.com/yourorg/jagoprbot.git
 
 ### Success
 ```
-✅ Description generated!
+Description generated!
 
 Summary:
 • 11 files analyzed
